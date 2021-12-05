@@ -1,7 +1,17 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/User/Home'
+import Management from './pages/User/Management'
 
 function App() {
-	return <div className='flex h-screen bg-gray-100'>Lam trang dang ky</div>
+	return (
+		<div>
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/management' element={<Management />} />
+			</Routes>
+		</div>
+	)
 }
 
 export default App
