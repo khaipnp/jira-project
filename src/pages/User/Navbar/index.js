@@ -31,13 +31,13 @@ const Navbar = () => {
 									</Link>
 								</li>
 								<li>
-									<Link className='hover:text-gray-200' to='/'>
-										Text Here
+									<Link className='hover:text-gray-200' to='/register'>
+										Register
 									</Link>
 								</li>
 							</ul>
 
-							<div className='hidden xl:flex items-center space-x-5 items-center'>
+							<div className='hidden xl:flex space-x-5 items-center'>
 								<Link className='hover:text-gray-200' to='/'>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
